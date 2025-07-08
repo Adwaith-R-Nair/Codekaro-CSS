@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #111;
+}
+.login-container {
+  text-align: center;
+  max-width: 350px;
+  width: 90%;
+}
+.logo{
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.welcome{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.login-form input{
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.password-container {
+    position: relative;
+}
+.password-container .show-text{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-90%);
+    color: #aaa;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-button{
+    color:#ffffff;
+    background-color: #111;
+    padding: 16px 28px;
+    border: none;
+    border-radius: 99px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.options{
+    margin-top: 24px;
+    color: #aaa;
+    font-size: 14px;
+}
+.options a{
+    color: #000;
+    text-decoration: underline;
+}
+.terms{
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 24px;
+
+}
+.terms a{
+    color: #777;
+    text-decoration: underline;
+}
