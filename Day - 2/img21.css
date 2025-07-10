@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  width: 340px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.image-container {
+  position: relative;
+}
+
+.food-img {
+  width: 100%;
+  display: block;
+}
+
+.tag {
+  position: absolute;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 6px;
+  color: white;
+}
+
+.promoted {
+  top: 8px;
+  left: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.time {
+  top: 8px;
+  right: 8px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.offer {
+  bottom: 8px;
+  left: 8px;
+  background-color: #007aff;
+  font-weight: bold;
+}
+
+.content {
+  padding: 16px;
+}
+
+.restaurant-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.cuisine {
+  font-size: 14px;
+  color: #777;
+  margin: 0 0 12px 0;
+}
+
+.safety {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.badge {
+  background-color: #e3f7f2;
+  color: #00756a;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1;
+}
+
+.badge .small {
+  display: block;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.safety-text {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.3;
+}
